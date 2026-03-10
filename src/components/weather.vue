@@ -13,7 +13,7 @@
     </div>
 
     <div v-if="forecast.length" class="forecast">
-      <h3>5-Day Forecast</h3>
+      <h3>5-Day Forecast🌩️</h3>
       <div class="forecast-grid">
         <div v-for="(day, i) in forecast" :key="i" class="card forecast-card">
           <h4>{{ day.date }}</h4>
